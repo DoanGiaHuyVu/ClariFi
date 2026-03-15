@@ -1,0 +1,32 @@
+{
+  "app": { "name": "ClariFi", "tagline": "Ton argent, clarifié" },
+  "nav": { "dashboard": "Tableau de bord", "transactions": "Transactions", "goals": "Objectifs", "ai": "Coach IA", "assets": "Valeur Nette", "settings": "Paramètres" },
+  "dashboard": {
+    "balance": "Solde", "safeToSpend": "Disponible à dépenser", "income": "Revenus", "expenses": "Dépenses",
+    "netWorth": "Valeur nette", "forecast": "Prévision fin de mois", "monthlyBudget": "Budget mensuel",
+    "week": "Semaine", "month": "Mois", "year": "Année", "all": "Tout",
+    "categoryBudgets": "Budgets Catégories", "savingsGoals": "Objectifs Épargne", "perfected": "Parfait",
+    "calculationDetails": "Détails du calcul", "last7Days": "7 derniers jours", "noData": "Aucune donnée",
+    "budgetStatus": "Statut du budget", "consumed": "CONSOMMÉ", "expenseEvolution": "Évolution des dépenses",
+    "toAssign": "À assigner aujourd'hui", "availableToday": "Disponible aujourd'hui",
+    "zeroBased": "Budget à zéro", "safeToSpendLabel": "Sûr à dépenser", "lastMonth": "mois dernier", "per": "par"
+  },
+  "transactions": { 
+    "add": "Ajouter une transaction", "description": "Description", "amount": "Montant", "category": "Catégorie", "date": "Date", "edit": "Modifier", "delete": "Supprimer", "history": "Historique", "merchant": "COMMERÇANT", "actions": "ACTIONS", "receiptAttached": "Reçu joint", "completed": "Complété", "pending": "En attente",
+    "expense": "Dépense", "income": "Revenu", "recurring": "Récurrent", "repeatMonthly": "Répéter mensuellement", "currencyConverter": "Convertisseur de devises", "foreignAmount": "Montant étranger", "currentRate": "Taux actuel", "receiptOptional": "Reçu (Optionnel)", "uploaded": "Téléchargé", "dragHint": "Cliquez ou glissez votre reçu ici", "addTransaction": "Ajouter la transaction", "cancel": "Annuler",
+    "descriptionPlaceholder": "Ex: Épicerie Hebdomadaire", "transactionAdded": "Transaction ajoutée : {{text}} ({{amount}})"
+  },
+  "categories": { "food": "Épicerie", "rent": "Loyer", "transport": "STM / Transport", "utilities": "Hydro-Québec", "health": "RAMQ / Santé", "entertainment": "Divertissement", "savings": "Épargne", "other": "Autre" },
+  "goals": { "title": "Objectifs d'épargne", "create": "Nouvel objectif", "target": "Montant cible", "deadline": "Date cible", "contribute": "Ajouter des économies", "noGoals": "Aucun objectif défini." },
+  "gamification": { "level": "Niveau", "xp": "XP", "badges": "Badges", "streak": "Jours de suite", "managementXp": "XP de gestion", "categorizeHint": "Encore quelques transactions catégorisées pour gagner 50 XP !", "xpTotal": "XP TOTAL", "weeklyChallenges": "Défis de la semaine",
+    "claimReward": "Réclamer"
+  },
+  "ai": { "askMe": "Posez-moi une question...", "coach": "Coach IA" },
+  "pro": {
+    "upgrade": "Passer à Pro",
+    "feature": "Débloquez des analyses avancées et le coach IA illimité.",
+    "button": "Mettre à jour"
+  },
+  "header": { "search": "Rechercher...", "proMember": "Membre Pro" },
+  "settings": { "zeroBasedTitle": "Mode budget base-zéro", "zeroBasedDesc": "Attribuez chaque dollar de revenu à une catégorie.", "darkModeTitle": "Mode sombre", "darkModeDesc": "Activer un thème plus sombre pour l'interface." }
+}

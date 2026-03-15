@@ -1,0 +1,32 @@
+{
+  "app": { "name": "ClariFi", "tagline": "Your Money, Clarified" },
+  "nav": { "dashboard": "Dashboard", "transactions": "Transactions", "goals": "Goals", "ai": "AI Coach", "assets": "Net Worth", "settings": "Settings" },
+  "dashboard": {
+    "balance": "Balance", "safeToSpend": "Safe to spend", "income": "Income", "expenses": "Expenses",
+    "netWorth": "Net worth", "forecast": "Month-end forecast", "monthlyBudget": "Monthly budget",
+    "week": "Week", "month": "Month", "year": "Year", "all": "All",
+    "categoryBudgets": "Category Budgets", "savingsGoals": "Savings Goals", "perfected": "Perfected",
+    "calculationDetails": "Calculation details", "last7Days": "Last 7 days", "noData": "No data available",
+    "budgetStatus": "Budget Status", "consumed": "CONSUMED", "expenseEvolution": "Expense Evolution",
+    "toAssign": "To Assign Managed", "availableToday": "Available Today",
+    "zeroBased": "Zero-based", "safeToSpendLabel": "Safe to spend", "lastMonth": "last month", "per": "per"
+  },
+  "transactions": { 
+    "add": "Add transaction", "description": "Description", "amount": "Amount", "category": "Category", "date": "Date", "edit": "Edit", "delete": "Delete", "history": "History", "merchant": "MERCHANT", "actions": "ACTIONS", "receiptAttached": "Receipt attached", "completed": "Completed", "pending": "Pending",
+    "expense": "Expense", "income": "Income", "recurring": "Recurring", "repeatMonthly": "Repeat monthly", "currencyConverter": "Currency Converter", "foreignAmount": "Foreign amount", "currentRate": "Current rate", "receiptOptional": "Receipt (Optional)", "uploaded": "Uploaded", "dragHint": "Click or drag your receipt here", "addTransaction": "Add Transaction", "cancel": "Cancel",
+    "descriptionPlaceholder": "e.g., Weekly Groceries", "transactionAdded": "Transaction added: {{text}} ({{amount}})"
+  },
+  "categories": { "food": "Food", "rent": "Rent", "transport": "Transport", "utilities": "Utilities", "health": "Health", "entertainment": "Entertainment", "savings": "Savings", "other": "Other" },
+  "goals": { "title": "Savings goals", "create": "New goal", "target": "Target amount", "deadline": "Target date", "contribute": "Add savings", "noGoals": "No goals found." },
+  "gamification": { "level": "Level", "xp": "XP", "badges": "Badges", "streak": "Day streak", "managementXp": "Management XP", "categorizeHint": "Categorize a few more transactions to earn 50 XP!", "xpTotal": "XP TOTAL", "weeklyChallenges": "Weekly Challenges",
+    "claimReward": "Claim"
+  },
+  "ai": { "askMe": "Ask me anything...", "coach": "AI Budget Coach" },
+  "pro": {
+    "upgrade": "Upgrade to Pro",
+    "feature": "Unlock advanced analytics and unlimited AI coaching.",
+    "button": "Update Now"
+  },
+  "header": { "search": "Search...", "proMember": "Pro Member" },
+  "settings": { "zeroBasedTitle": "Zero-based budget mode", "zeroBasedDesc": "Enforce assigning every dollar of income to a category.", "darkModeTitle": "Dark Mode", "darkModeDesc": "Enable a darker theme for the interface." }
+}
