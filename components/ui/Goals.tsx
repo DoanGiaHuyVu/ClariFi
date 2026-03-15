@@ -84,7 +84,7 @@ export function Goals() {
         <div className="flex gap-3 flex-wrap">
           {GOAL_EMOJIS.map(e => (
             <button key={e} onClick={() => setEmoji(e)}
-              className={`text-2xl p-3 rounded-2xl transition-all ${emoji === e ? 'bg-[#5D52D1] shadow-lg shadow-violet-200 scale-110' : 'bg-slate-50 dark:bg-gray-800 hover:bg-slate-100 dark:hover:bg-gray-700'}`}>{e}</button>
+              className={`text-2xl p-3 rounded-2xl transition-all ${emoji === e ? 'bg-[#5D52D1] dark:bg-violet-700/80 shadow-lg shadow-violet-200 dark:shadow-none scale-110' : 'bg-slate-50 dark:bg-gray-800 hover:bg-slate-100 dark:hover:bg-gray-700'}`}>{e}</button>
           ))}
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -139,7 +139,7 @@ export function Goals() {
                     onChange={e => setContribution(c => ({ ...c, [goal.id]: e.target.value }))} 
                     className="h-11 rounded-[1rem] border-none bg-slate-50 dark:bg-gray-800 px-4 font-bold text-xs text-slate-900 dark:text-gray-200 placeholder:text-slate-300 dark:placeholder:text-gray-500"
                   />
-                  <Button onClick={() => handleContribute(goal.id)} className="h-11 px-6 bg-[#5D52D1] hover:bg-[#4A40B5] text-white rounded-[1rem] font-black shadow-lg shadow-violet-200 dark:shadow-none">+</Button>
+                  <Button onClick={() => handleContribute(goal.id)} className="h-11 px-6 bg-[#5D52D1] dark:bg-violet-700/80 hover:bg-[#4A40B5] dark:hover:bg-violet-700 text-white rounded-[1rem] font-black shadow-lg shadow-violet-200 dark:shadow-none">+</Button>
                 </div>
               )}
             </div>
